@@ -405,6 +405,7 @@ hr{
     width: 100%;
     padding: 70px 0px;
     position: relative;
+    margin-bottom: 10px;
 
 }
 .footer-row{
@@ -447,4 +448,22 @@ hr{
     top: 35%;
     transform: translate(-50%,-50%);
     opacity: .2;
+}
+.social-links{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%);
+    margin-bottom: 5px;
+    text-align: center;
+}
+.social-links .fab{
+    margin: 0 1px;
+    padding: 15px;
+    font-size: 20px;
+    color: #019587;
+}
+.social-links .fas{
+    color: #019587;
+    margin: 0 5px;
 }
